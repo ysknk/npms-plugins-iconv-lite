@@ -36,5 +36,5 @@ npm run iconv-lite -- --help
 
 project root `.iconvliterc.js`  
 or  
-cli `npm run iconvlite -- -cwd "./test/before" -src "**/[!_]*.txt" -dest "./test/after/" -to "sjis"
+cli `npm run iconvlite -- -cwd \"./test/before\" -src \"**/[!_]*.txt\" -dest \"./test/after/\" -to \"sjis\"
 `
