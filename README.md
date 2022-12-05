@@ -1,9 +1,9 @@
-# glob-del-cli
+# glob-iconv-lite
 
 ## Description
 
-delをcli化。globで複数ファイルを指定して削除できるようにしたもの。  
-引数を渡すことでdelを実行することができる。  
+iconv-liteをcli化。globで複数ファイルを指定してエンコーディングできるようにしたもの。  
+引数を渡すことでiconv-liteを実行することができる。  
 
 ## Requirement
 
@@ -12,7 +12,7 @@ delをcli化。globで複数ファイルを指定して削除できるように�
 ## Install
 
 ```sh
-npm i -D https://github.com/ysknk/glob-del-cli.git
+npm i -D https://github.com/ysknk/glob-iconv-lite.git
 ```
 
 ## Usage
@@ -22,19 +22,19 @@ npm i -D https://github.com/ysknk/glob-del-cli.git
 ```json
 {
   "scripts": {
-    "del": "del"
+    "iconv-lite": "iconv-lite"
   },
 }
 ```
 
 ```sh
 # check arguments help
-npm run del -- --help
+npm run iconv-lite -- --help
 ```
 
 ### ex) set options
 
-project root `.delrc.js`  
+project root `.iconvliterc.js`  
 or  
-cli `npm run del -- -base "./test/" -src "**/[!_]*.js" -dryRun true
+cli `npm run iconvlite -- -cwd "./test/before" -src "**/[!_]*.txt" -dest "./test/after/" -to "sjis"
 `
