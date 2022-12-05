@@ -27,8 +27,8 @@ glob.sync(argv.src, {
 
   // NOTE: watch related path
   const relpath = argv.rel
-    ? path.resolve(argv.rel, name)
-    : path.resolve(argv.cwd, name)
+    ? path.resolve(argv.rel, key)
+    : path.resolve(argv.cwd, key)
 
   ;(async () => {
     let data = ''
