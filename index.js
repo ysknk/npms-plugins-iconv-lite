@@ -30,6 +30,11 @@ glob.sync(argv.src, {
     ? path.resolve(argv.rel, name)
     : path.resolve(argv.cwd, name)
 
+  if (argv.from === argv.to) {
+    utils.message.success(`skip encode[${argv.from} -> ${argv.to}]: ${destpath}`, {ptime: false})
+    return
+  }
+
   ;(async () => {
     let data = ''
     try {
