@@ -1,5 +1,5 @@
 {
-  "name": "glob-iconv-lite",
+  "name": "npms-plugins-iconv-lite",
   "version": "0.1.0",
   "description": "glob iconv-lite cli",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:ysknk/glob-iconv-lite.git"
+    "url": "git+ssh://git@github.com:ysknk/npms-plugins-iconv-lite.git"
   },
   "bin": {
     "iconv-lite": "./bin/iconv-lite.js"
