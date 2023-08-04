@@ -1,4 +1,4 @@
-# glob-iconv-lite
+# npms-plugins-iconv-lite
 
 ## Description
 
@@ -12,7 +12,7 @@ iconv-liteをcli化。globで複数ファイルを指定してエンコーディ
 ## Install
 
 ```sh
-npm i -D https://github.com/ysknk/glob-iconv-lite.git
+npm i -D https://github.com/ysknk/npms-plugins-iconv-lite.git
 ```
 
 ## Usage
